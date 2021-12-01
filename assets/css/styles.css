@@ -80,3 +80,61 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: #ccc solid 1px;
+    padding: 1em;
+    font-size: 0.8em;
+    background-color: whitesmoke;
+}
+
+.footer button{
+    margin: 5px auto 0;
+    padding: 5px;
+    font-size: 0.8em;
+    color: #6d6d6d;
+}
+
+.politica {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    padding: 50px 10px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.politica h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.politica h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 5px;
+}
+
+.politica p {
+    width: 100%;
+    margin: 2px;
+}
+
+.politica ul {
+    list-style: square;
+    margin: 0 0 0 3em;
+}
+
+.politica button {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 5px;
+}
